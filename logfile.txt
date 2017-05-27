@@ -1,0 +1,16 @@
+4/4 - Created logfile, created html for every page’s menu, formatted timesheet table, finished login page functionality.
+4/6 - finalize emp timesheet page and client/emp profile, started select statements on html, databases are completed, inserted dummy sheets, seperated client and employee login
+4/7 - Added more pages onto server and links to dummy/empty pages that will be filled from the php to show user pathing
+4/8 - completed fake pages for client view and links to profile, projects,and invoice php pages on client view menu. Completed fake pages for general employees and added links to profile, timesheet, and tasks php pages on emp view menu.  completed fake admin/manager profile added pages for profile, timesheets, clients, invoices, and tasks.
+Completed website pathing, no functionality has been added yet and databases have not been connected
+4/11 - created 3 menu php pages for each user type view so that menus could be put in pages using require_once, added comments and updated tables to reflect future functionalities / preparing for php 
+4/13 - removed extra code from menu coding included in other pages 
+4/18 - connected to databases, displayed all client project details / attributes into client project view (this will be reformatted to only show certain info to client specific projects)
+4/19 - Gave administer view of all projects and attributes besides project_ids from project db and ordered them by project status (in progess over compeleted projs) followed by due date (earlier due dates before later), and finally by project name
+4/21 - changed admin clients to projects, adding html clients and employee page to manage client and emp accounts. Added Cyrus's helper functions and cleaned up view code
+4/25 - completed client login profile and project view to only show information related to the logged in client, last req of client pages is to finish invoices
+4/28 - completed employee login and differentiating between manager and non-manager profiles. add new employee / submit button is finished on aEmployeesList. Completed aClientsList
+5/2 - "completed" eTasks page, continued work on aInvoice and aTasks
+5/4 - adjusted MySQL tables
+5/5 - working on inner joins to display names, moved task table to projects tab for manager, renamed Tasks to Assignment to clarify page purpose for manager, added logout for each of the 3 login profile menus, cried myself to sleep, lol jk, i didn't sleep
+
