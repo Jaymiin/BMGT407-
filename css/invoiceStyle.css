@@ -1,0 +1,111 @@
+
+html { 
+	font: 16px 'Open Sans', sans-serif; 
+	overflow: auto; 
+	padding: 0.5in; 
+	background: #999;
+	cursor: default;
+}
+
+
+body { 
+	box-sizing: border-box; 
+	height: 11in; 
+	margin: 0 auto; 
+	overflow: hidden; 
+	padding: 0.5in; 
+	width: 8.5in; 
+	background: #FFF;
+	border-radius: 1px;
+	box-shadow: 0 0 1in -0.25in rgba(0, 0, 0, 0.5);
+}
+
+
+h1{ 
+	background-color: #000000;
+	color: white;
+	font: bold 100% sans-serif;
+	letter-spacing: 0.5em; 
+	text-align: center;
+}
+
+img{
+	width: 200px; 
+	height: 85px; 
+}
+
+
+table {
+	font-size: 75%; 
+	table-layout: fixed; 
+	width: 100%;
+	border-spacing: 2px;
+
+ }
+
+th, td{
+	border-width: 1px; 
+	padding: 0.5em; 
+	position: relative; 
+	text-align: center;
+	border-radius: 0.25em; border-style: solid;
+
+}
+
+
+th { 
+	background: #24b5e9; 
+	border-color: #24b5e9; 
+}
+
+
+td { 
+	border-color: #f1f1f1; 
+}
+
+
+
+.Project {
+
+text-align: left;
+padding-bottom: 30px;
+
+}
+
+
+.BasicInfo{
+
+	table-layout: fixed;
+	border-spacing: 2px;
+	width: 40%;
+	align-content: right;
+	
+	margin-bottom: 40px;
+
+}
+
+
+.InvoiceData th{
+	width: 100%;
+	font-weight: bold;
+	text-align: center;
+
+}
+
+.InvoiceData {
+
+
+	margin-bottom: 30px;
+}
+
+
+
+.Balance{
+
+table-layout: fixed;
+border-spacing: 2px;
+width: 40%;
+align-content: right;
+
+}
+

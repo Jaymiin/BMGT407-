@@ -1,0 +1,29 @@
+table,th, td {
+    border: 3px solid black;
+}
+tr:nth-child(even) {
+    background-color: #dddddd;
+    text-align: center;
+
+}
+
+form {
+	text-align: center;
+	align-self: center;
+	padding-top: 60px;
+
+}
+
+p{
+	padding-bottom: 10px;
+	text-align: center;
+	font-size: 60px;
+
+}
+
+
+#payPeriod{
+	padding-bottom: 60px;
+	text-align: center;
+
+}
